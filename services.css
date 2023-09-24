@@ -1,0 +1,192 @@
+@media  (min-width: 375px) {
+    
+
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;  
+    }
+    
+    header{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        position: sticky;
+        /* Stick the navbar to the top of the viewport */
+        top: 0;
+        background-color: black;
+        color: white;
+        /* Set a high z-index to ensure it's on top of other elements */
+        z-index: 1000; 
+        
+    }
+    
+    h1{
+        margin: 30px auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 40px;
+        font-family: sans-serif;
+    }
+    
+    #logo{
+        height: 50px;
+        width: auto;
+    }
+    
+    nav{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        position: sticky;
+    }
+    
+    .navs{
+        margin: 30px;
+        font-size: 25px;
+        font-family: 'Mochiy Pop One', sans-serif;
+        text-decoration: none;
+        align-items: flex-start;
+        align-content: center;
+        
+    }
+    
+    .navs:hover{
+        transform: scale(1.2);
+    }
+    
+    #services{
+        color: #6f6fc7;
+    }
+
+    main {
+        padding: 20px;
+        background: url(https://hips.hearstapps.com/hmg-prod/images/avatar-concept-1580768332.jpg?crop=0.6666953824948312xw:1xh;center,top&resize=1200:*) center/cover ;
+    }
+    
+    section {
+        margin-bottom: 30px;
+        padding: 20px;
+        background: rgba(192, 185, 185, 0.781);
+        width: auto;
+        border-radius: 25px;
+    }
+    
+    section:hover{
+        font-size: larger;
+    }
+
+    h2 {
+        color: #333;
+    }
+    
+    p {
+        color: #555;
+    }
+}
+
+@media (max-width: 374px) {
+   
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;  
+    }
+    
+    header{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        position: sticky;
+        /* Stick the navbar to the top of the viewport */
+        top: 0;
+        background-color: black;
+        color: white;
+        /* Set a high z-index to ensure it's on top of other elements */
+        z-index: 1000; 
+        
+    }
+    
+    h1{
+        margin: 3px auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 10px;
+        font-family: sans-serif;
+    }
+    
+    #logo{
+        height: 50px;
+        width: auto;
+    }
+    
+    nav{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        position: sticky;
+    }
+    
+    .navs{
+        margin: 10px;
+        font-size: 10px;
+        font-family: 'Mochiy Pop One', sans-serif;
+        text-decoration: none;
+        align-items: flex-start;
+        align-content: center;
+        
+    }
+    
+    .navs:hover{
+        transform: scale(1.2);
+    }
+    
+    #services{
+        color: #6f6fc7;
+    }
+
+    main {
+        padding: 20px;
+        background: url(https://hips.hearstapps.com/hmg-prod/images/avatar-concept-1580768332.jpg?crop=0.6666953824948312xw:1xh;center,top&resize=1200:*) center/cover ;
+    }
+    
+    section {
+        margin-bottom: 30px;
+        padding: 20px;
+        background: rgba(192, 185, 185, 0.781);
+        width: auto;
+        border-radius: 25px;
+    }
+    
+    section:hover{
+        font-size: larger;
+    }
+
+    h2 {
+        color: #333;
+    }
+    
+    p {
+        color: #555;
+    }
+    
+    
+    button{
+        margin: 20px;
+    }
+    
+    
+    h2{
+        font-style: italic;
+    }
+    
+    footer{
+        padding: 30px;
+        background-color: rgba(0, 60, 97, 0.77);
+        font-size: 15px;
+    }
+        
+    }
