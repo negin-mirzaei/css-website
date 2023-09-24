@@ -1,0 +1,107 @@
+@media  (min-width: 375px) {
+    
+
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;  
+    }
+    
+    header{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        position: sticky;
+        /* Stick the navbar to the top of the viewport */
+        top: 0;
+        background-color: black;
+        color: white;
+        /* Set a high z-index to ensure it's on top of other elements */
+        z-index: 1000; 
+        
+    }
+    
+    h1{
+        margin: 30px auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 40px;
+        font-family: sans-serif;
+    }
+    
+    #logo{
+        height: 50px;
+        width: auto;
+    }
+    
+    nav{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        position: sticky;
+    }
+    
+    .navs{
+        margin: 30px;
+        font-size: 25px;
+        font-family: 'Mochiy Pop One', sans-serif;
+        text-decoration: none;
+        align-items: flex-start;
+        align-content: center;
+        
+    }
+    
+    .navs:hover{
+        transform: scale(1.2);
+    }
+    
+    #models{
+        color: #6f6fc7;
+    }
+
+    main{
+        
+        padding: 20px;
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        background: url(https://www.mercedes-benz.com/content/dam/brandhub/assets/vehicles/mercedes-benz-classics/grand-mercedes/stage/04-2023/images/mercedes-benz-grand-mercedes-stage-3840x2160-04-2023.cbv20230517111016.jpg/_jcr_content/renditions/mq7-original-aspect.jpeg) center/cover ;
+
+    }
+
+    .es{
+        width: 280px;
+        height: auto;
+        margin: 30px;
+        padding: 20px;
+        background-color: #6f6fc7;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        border-radius: 25px;
+    }
+
+    section:hover {
+        transition: all 3s;
+        transform: rotate(360deg) scale(1.05);
+        background-color: #8a8988;
+    }
+
+    .images{
+        width: 200px;
+        height: 150px;
+        margin: 20px;
+    }
+
+    .fi{
+        display: inline-block;
+    }
+
+    .md{
+        margin: 20px;
+        display: flex;
+        justify-content: center;
+    }
+}

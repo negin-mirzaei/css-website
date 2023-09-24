@@ -53,6 +53,10 @@ nav{
     
 }
 
+.navs:hover{
+    transform: scale(1.2);
+}
+
 #home{
     color: #6f6fc7;
 }
