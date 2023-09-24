@@ -57,7 +57,7 @@
         transform: scale(1.2);
     }
     
-    #services{
+    #about{
         color: #6f6fc7;
     }
 
@@ -90,6 +90,35 @@
     section:hover{
         background: #776c6ca1;
     }
+
+    .contact-footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-footer h4 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.contact-footer p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.contact-footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-footer li {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
 }
 
 @media (max-width: 374px) {
@@ -177,6 +206,33 @@
     p {
         color: #555;
         
+    }
+    .contact-footer {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+    }
+    
+    .contact-footer h4 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+    
+    .contact-footer p {
+        font-size: 16px;
+        margin-bottom: 10px;
+        color: #fff;
+    }
+    
+    .contact-footer ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    
+    .contact-footer li {
+        font-size: 14px;
+        margin-bottom: 5px;
     }
         
     }
